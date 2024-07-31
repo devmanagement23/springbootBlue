@@ -7,6 +7,8 @@ import com.nsti.Blue.model.User;
 public interface UserRepository extends JpaRepository<User, Long>{
 	
 								// Long is the datatype of primary key in model class
+								// This JpaRepository has inbuild CRUD methods
+								// that apply on User model entity
 	
 	
 }
