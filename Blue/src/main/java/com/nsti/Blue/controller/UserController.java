@@ -10,10 +10,12 @@ import java.util.List;
 import com.nsti.Blue.model.User;
 import com.nsti.Blue.repository.UserRepository;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 //import org.springframework.web.bind.annotation.RequestParam;
 
 @RestController
+@CrossOrigin("http://localhost:5173")
 public class UserController {
 
 	@Autowired
